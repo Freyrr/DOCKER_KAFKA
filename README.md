@@ -12,6 +12,7 @@ docker file Kafka for testing
 	Creating network "kafka_default" with the default driver
 	Creating kafka_zookeeper_1 ... done
 	Creating kafka_kafka_1     ... done
+![alt text](https://github.com/Freyrr/DOCKER_KAFKA/blob/main/images/Screenshot-image1.png?raw=true)
 
 
 3. Now let's use the nc command to verify that both the servers are listening on the respective ports:
@@ -21,7 +22,7 @@ docker file Kafka for testing
 	Connection to localhost port 29092 [tcp/*] succeeded!
 
 
-<Optional>
+"2. Optional"
 	In /multi-cluster docker-compose for start multi node Kafka cluster. 
 	Although zookeeper-1 and zookeeper-2 are listening on port 2181, they're exposing it to the host via ports 22181 and 32181, respectively. 
 	The same logic applies for the kafka-1 and kafka-2 services, where they'll be listening on ports 29092 and 39092, respectively.
@@ -32,6 +33,6 @@ docker file Kafka for testing
 		Creating kafka_zookeeper-2_1 ... done
 		Creating kafka_kafka-2_1     ... done
 		Creating kafka_kafka-1_1     ... done
-	
+![alt text](https://github.com/Freyrr/DOCKER_KAFKA/blob/main/images/Screenshot-image2-multi.png?raw=true)	
 	
 
