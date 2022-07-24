@@ -22,7 +22,7 @@ docker file Kafka for testing
 	Connection to localhost port 29092 [tcp/*] succeeded!
 
 
-"2. Optional"
+2. (!) Optional
 	In /multi-cluster docker-compose for start multi node Kafka cluster. 
 	Although zookeeper-1 and zookeeper-2 are listening on port 2181, they're exposing it to the host via ports 22181 and 32181, respectively. 
 	The same logic applies for the kafka-1 and kafka-2 services, where they'll be listening on ports 29092 and 39092, respectively.
