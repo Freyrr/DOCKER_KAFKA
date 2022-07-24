@@ -12,7 +12,7 @@ docker file Kafka for testing
 	Creating network "kafka_default" with the default driver
 	Creating kafka_zookeeper_1 ... done
 	Creating kafka_kafka_1     ... done
-![Example Offset Explorer](https://github.com/Freyrr/DOCKER_KAFKA/blob/main/images/Screenshot-image1.png?raw=true)
+![Example Offset Explorer](./images/Screenshot-image1.png?raw=true)
 
 
 3. Now let's use the nc command to verify that both the servers are listening on the respective ports:
@@ -33,6 +33,6 @@ docker file Kafka for testing
 		Creating kafka_zookeeper-2_1 ... done
 		Creating kafka_kafka-2_1     ... done
 		Creating kafka_kafka-1_1     ... done
-![Example Offset Explorer Multi-Node](https://github.com/Freyrr/DOCKER_KAFKA/blob/main/images/Screenshot-image2-multi.png?raw=true)	
+![Example Offset Explorer Multi-Node](./images/Screenshot-image2-multi.png?raw=true)	
 	
 
